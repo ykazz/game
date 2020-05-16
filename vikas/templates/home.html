@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<html>
+<h1 style="text-align:center; font-family:cursive; background-image:url('vikas\static\images\23673.jpg'); color:red ;">Welcome to "5 PaTii" 🤑 💰 </h1>
+<head>
+
+</head>
+<body style="background-image: url('https://cdnb.artstation.com/p/assets/images/images/013/581/119/large/roger-abello-rogerabello-farcity-v2-02.jpg?1540256691');"> 
+    
+<form action="add" method="POST">
+    {% csrf_token %}
+    <table style="margin-left: auto; margin-right:auto; background-color:yellow; ">         
+<! 1>    <tr>
+         <td>#</td>
+         <td><input type="text" name="a1" placeholder="Player 1" value="Player1"><td>
+         <td><input type="text" name="a2" placeholder="Player 2" value="Player2"></td>
+         <td><input type="text" name="a3" placeholder="Player 3" value="Player3"></td>
+         <td><input type="text" name="a4" placeholder="Player 4" value="Player4"><td>
+         <td><input type="text" name="a5" placeholder="Player 5" value="Player5"></td>
+         <td><input type="text" name="a6" placeholder="Player 6" value="Player6"></td>
+                
+        </tr>
+       
+<!2>        <tr>
+  <td>1</td>
+          <td><input type="number" name="b1" value="0"><td>
+          <td><input type="number" name="b2"value="0"></td>
+          <td><input type="number" name="b3"value="0"></td>
+          <td><input type="number" name="b4"value="0"><td>
+          <td><input type="number" name="b5"value="0"></td>
+          <td><input type="number" name="b6" value="0"></td>
+ 
+                 
+         </tr>
+<!3>     <tr>
+  <td>2</td>
+          <td><input type="number" name="c1"value="0"><td>
+          <td><input type="number" name="c2" value="0"></td>
+          <td><input type="number" name="c3" value="0"></td>
+          <td><input type="number" name="c4" value="0"><td>
+          <td><input type="number" name="c5" value="0"></td>
+          <td><input type="number" name="c6" value="0"></td>
+ 
+                 
+         </tr>
+<! 4>     <tr>
+  <td>3</td>
+          <td><input type="number" name="d1" value="0"><td>
+          <td><input type="number" name="d2" value="0"></td>
+          <td><input type="number" name="d3" value="0"></td>
+          <td><input type="number" name="d4" value="0"><td>
+          <td><input type="number" name="d5" value="0"></td>
+          <td><input type="number" name="d6" value="0"></td>
+ 
+                 
+        </tr>
+<! 5>   <tr>
+  <td>4</td>
+          <td><input type="number" name="e1" value="0"><td>
+          <td><input type="number" name="e2" value="0"></td>
+          <td><input type="number" name="e3" value="0"></td>
+          <td><input type="number" name="e4" value="0"><td>
+          <td><input type="number" name="e5" value="0"></td>
+          <td><input type="number" name="e6" value="0"></td>
+ 
+                 
+          </tr>
+<! 6>     <tr>
+  <td>5</td>
+          <td><input type="number" name="f1" value="0"><td>
+          <td><input type="number" name="f2"value="0"></td>
+          <td><input type="number" name="f3"value="0"></td>
+          <td><input type="number" name="f4" value="0"><td>
+          <td><input type="number" name="f5" value="0"></td>
+          <td><input type="number" name="f6" value="0"></td>
+ 
+                 
+         </tr>
+<! 7>     <tr>
+  <td>6</td>
+          <td><input type="number" name="g1" value="0"><td>
+          <td><input type="number" name="g2" value="0"></td>
+          <td><input type="number" name="g3" value="0"></td>
+          <td><input type="number" name="g4" value="0"><td>
+          <td><input type="number" name="g5" value="0"></td>
+          <td><input type="number" name="g6" value="0"></td>
+ 
+                 
+         </tr>
+<! 8>     <tr>
+  <td>7</td>
+          <td><input type="number" name="h1" value="0"><td>
+          <td><input type="number" name="h2" value="0"></td>
+          <td><input type="number" name="h3"value="0"></td>
+          <td><input type="number" name="h4" value="0"><td>
+          <td><input type="number" name="h5" value="0"></td>
+          <td><input type="number" name="h6" value="0"></td>
+ 
+                 
+         </tr>
+<! 9>    <tr>
+  <td>8</td>
+          <td><input type="number" name="i1"value="0"><td>
+          <td><input type="number" name="i2"value="0"></td>
+          <td><input type="number" name="i3" value="0"></td>
+          <td><input type="number" name="i4"value="0"><td>
+          <td><input type="number" name="i5"value="0"></td>
+          <td><input type="number" name="i6"value="0"></td>
+ 
+                 
+         </tr>
+<! 10>   <tr>
+  <td>9</td>
+         <td><input type="number" name="j1" value="0"><td>
+         <td><input type="number" name="j2" value="0"></td>
+         <td><input type="number" name="j3"value="0"></td>
+         <td><input type="number" name="j4"value="0"><td>
+         <td><input type="number" name="j5"value="0"></td>
+         <td><input type="number" name="j6"value="0"></td>
+
+         
+ </tr>
+ <! 11>   <tr>
+  <td>10</td>
+         <td><input type="number" name="k1" value="0"><td>
+         <td><input type="number" name="k2"value="0"></td>
+         <td><input type="number" name="k3"value="0"></td>
+         <td><input type="number" name="k4"value="0"><td>
+         <td><input type="number" name="k5"value="0"></td>
+         <td><input type="number" name="k6"value="0"></td>
+
+ <! 12>   <tr>
+  <td>11</td>
+         <td><input type="number" name="l1" value="0"><td>
+         <td><input type="number" name="l2"value="0"></td>
+         <td><input type="number" name="l3"value="0"></td>
+         <td><input type="number" name="l4"value="0"><td>
+         <td><input type="number" name="l5"value="0"></td>
+         <td><input type="number" name="l6"value="0"></td>
+
+<! 13>   <tr>
+            <td>12</td>
+                 <td><input type="number" name="m1"value="0"><td>
+                 <td><input type="number" name="m2"value="0"></td>
+                 <td><input type="number" name="m3"value="0"></td>
+                 <td><input type="number" name="m4"value="0"><td>
+                 <td><input type="number" name="m5"value="0"></td>
+                 <td><input type="number" name="m6"value="0"></td>
+        
+                 
+         </tr>         
+<! 14>   <tr>
+          <td>13</td>
+                 <td><input type="number" name="n1"value="0"><td>
+                 <td><input type="number" name="n2"value="0"></td>
+                 <td><input type="number" name="n3" value="0"></td>
+                 <td><input type="number" name="n4" value="0"><td>
+                 <td><input type="number" name="n5" value="0"></td>
+                 <td><input type="number" name="n6" value="0"></td>
+                </tr>
+<! 15>   <tr>
+
+                  <td>14</td>
+                         <td><input type="number" name="o1" value="0"><td>
+                         <td><input type="number" name="o2" value="0"></td>
+                         <td><input type="number" name="o3" value="0"></td>
+                         <td><input type="number" name="o4" value="0"><td>
+                         <td><input type="number" name="o5" value="0"></td>
+                         <td><input type="number" name="o6" value="0"></td>
+                
+                         
+                 </tr>
+              </table>
+      <h1> </h1>
+    <div style="text-align: center; border:black solid 1px;">
+    <input  type="submit" >
+  </div>
+</form> 
+</body>
+{% endblock %}
+</html>
